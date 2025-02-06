@@ -1,7 +1,11 @@
+import Playground from "./components/Playground"
 
-const App = () => {
+
+const App: React.FC = () => {
   return (
-    <div className="App">App</div>
+    <div>
+      <Playground/>
+    </div>
   )
 }
 
